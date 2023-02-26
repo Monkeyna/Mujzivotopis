@@ -7,10 +7,10 @@ body {
 
 /* Hlavička */
 .hlavicka {
-    background-color: palevioletred;
+    background-color: hsl(340, 57%, 64%);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    
+   
     text-align: center;
     padding: 20px 20px 40px 20px;
 
@@ -18,16 +18,17 @@ body {
 }
 
 .foto {
-    width: 10%;
+    width: 6%;
     border-radius: 0px 20px 0px 20px;
     border: 2px dotted;
     border-color: white;
-    float: left;
-    margin: 30px;
+    margin: 10px;
 
 }
 
+h1 {font-family: 'Lobster', cursive;
 
+}
 
 
 /* Okraje */
@@ -96,19 +97,13 @@ body {
 
 
 .prvnitab td {
-    width: 11px;
-    height: 11px;
+    width: 20px;
+    height: 20px;
     border: 1px solid purple;
     color: transparent;
 }
 
-.prostrednitab td {
-    width: 10px;
-    height: 10px;
-    border: 1px solid purple;
-    color: transparent;
 
-}
 
 
 .druhatab td {
