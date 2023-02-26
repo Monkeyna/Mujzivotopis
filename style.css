@@ -1,1 +1,152 @@
-h1 {color: red;}
+body { 
+    background-color: bisque;
+    font-size: 20px;
+    line-height: 1,5;
+    margin: 0;
+}
+
+/* Hlavička */
+.hlavicka {
+    background-color: palevioletred;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 20px 40px 20px;
+
+    
+}
+
+.foto {
+    width: 10%;
+    border-radius: 0px 20px 0px 20px;
+    border: 2px dotted;
+    border-color: white;
+    float: left;
+    margin: 30px;
+
+}
+
+
+
+
+/* Okraje */
+/* První tabulka */
+
+.prvnitab tr:nth-child(2n) > td:nth-child(2n) {
+    background: palevioletred
+}
+
+
+.prvnitab tr:nth-child(2n+1) > td:nth-child(2n+1) {
+    background: papayawhip;
+}
+
+
+.prvnitab tr:nth-child(2n+1) > td:nth-child(2n) {
+    background: pink;
+}
+.prvnitab tr:nth-child(2n) > td:nth-child(2n+1) {
+    background: paleturquoise;
+}
+
+/* Prostřední tabulka */
+
+.prostrednitab tr:nth-child(2n) > td:nth-child(2n) {
+    background: palevioletred
+}
+
+
+.prostrednitab tr:nth-child(2n+1) > td:nth-child(2n+1) {
+    background: papayawhip;
+}
+
+
+.prostrednitab tr:nth-child(2n+1) > td:nth-child(2n) {
+    background: pink;
+}
+.prostrednitab tr:nth-child(2n) > td:nth-child(2n+1) {
+    background: paleturquoise;
+}
+
+
+
+/*Druhá tabulka*/
+
+.druhatab tr:nth-child(2n) > td:nth-child(2n) {
+    background: paleturquoise
+}
+
+
+.druhatab tr:nth-child(2n+1) > td:nth-child(2n+1) {
+    background: pink;
+}
+
+
+.druhatab tr:nth-child(2n+1) > td:nth-child(2n) {
+    background: papayawhip;
+}
+.druhatab tr:nth-child(2n) > td:nth-child(2n+1) {
+    background: palevioletred;
+}
+
+
+
+
+
+
+.prvnitab td {
+    width: 11px;
+    height: 11px;
+    border: 1px solid purple;
+    color: transparent;
+}
+
+.prostrednitab td {
+    width: 10px;
+    height: 10px;
+    border: 1px solid purple;
+    color: transparent;
+
+}
+
+
+.druhatab td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid purple;
+    color: transparent;
+}
+
+.prvnitab {  
+    position: relative; 
+    float: left;
+    border-collapse: collapse;
+
+}
+
+.prostrednitab {  
+    position: relative; 
+    float: left;
+    border-collapse: collapse;
+
+}
+.druhatab {   
+    position: relative;
+    float: right;
+    border-collapse: collapse;
+}
+
+
+
+/* Patička */
+.paticka {
+    background-color: rgb(62, 57, 57);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 20px 40px 20px;
+
+    
+}
