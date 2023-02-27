@@ -11,8 +11,6 @@ body {
 .hlavicka {
     background-color: palevioletred;
     color: white;
-    
-   
     text-align: center;
     padding: 20px;
 
@@ -31,6 +29,7 @@ ul {
 }
 
 h1 {font-family: 'Lobster', cursive;
+    font-size: 42px;
 
 }
 
@@ -68,7 +67,6 @@ p {
     padding-bottom: 10px;
     margin: 0;
     vertical-align: middle;
-    position: relative;
     font-weight: bold;
     font-size: large;
     gap: 20px;
@@ -85,28 +83,30 @@ p {
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
-    margin: 5px;
     padding: 10px; 
     
 }
 
 .sekcejedna
-{
+{   margin: 40px;
     background-color: antiquewhite;
     border-radius: 0 10px 10px 10px;
 }
 
 .sekcedva {
      background-color: pink;
+     margin: 20px;
      border-radius: 10px 10px 10px 0;
 }
 
 .sekcetri {
     background-color: aquamarine;
+    margin: 20px;
     border-radius: 10px;
 }
 
 .sekcectyri {
+    margin: 30px;
     background-color: paleturquoise;
     padding: 5 50px 0 0 ;
     border-radius: 10px 0 10px 10px;
@@ -114,6 +114,7 @@ p {
 
 .sekcepet {
     background-color: blanchedalmond;
+    margin: 10px;
     border-radius: 10px 10px 0 10px;
 }
 
@@ -136,26 +137,6 @@ p {
 .prvnitab tr:nth-child(2n) > td:nth-child(2n+1) {
     background: paleturquoise;
 }
-
-/* Prostřední tabulka */
-
-.prostrednitab tr:nth-child(2n) > td:nth-child(2n) {
-    background: palevioletred
-}
-
-
-.prostrednitab tr:nth-child(2n+1) > td:nth-child(2n+1) {
-    background: papayawhip;
-}
-
-
-.prostrednitab tr:nth-child(2n+1) > td:nth-child(2n) {
-    background: pink;
-}
-.prostrednitab tr:nth-child(2n) > td:nth-child(2n+1) {
-    background: paleturquoise;
-}
-
 
 
 /*Druhá tabulka*/
@@ -224,6 +205,6 @@ p {
     font-weight: bold;
     text-align: center;
     padding: 20px 20px 40px 20px;
-
+    font-style: italic;
     
 }
