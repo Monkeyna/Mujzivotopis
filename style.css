@@ -1,22 +1,26 @@
 body { 
-    background-color: bisque;
-    font-size: 20px;
-    line-height: 1,5;
+    
+    font-size: 15px;
+    line-height: 1;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
 }
 
 /* Hlavička */
 .hlavicka {
-    background-color: hsl(340, 57%, 64%);
+    background-color: palevioletred;
     color: white;
     
    
     text-align: center;
-    padding: 20px 20px 40px 20px;
+    padding: 20px;
 
     
 }
-
+ul {
+    list-style-type:circle
+}
 .foto {
     width: 6%;
     border-radius: 0px 20px 0px 20px;
@@ -30,6 +34,88 @@ h1 {font-family: 'Lobster', cursive;
 
 }
 
+.nadpis2 { font-family: 'Encode Sans', sans-serif;
+    color: white;
+
+}
+
+h2 {
+    font-family: 'Encode Sans', sans-serif;
+    color: #432703
+}
+
+h3
+{
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
+    color: #432703
+
+}
+
+a {
+    color:#432703;
+}
+p {
+    line-height: 0%;
+}
+
+.kontakt {
+    text-align: center;
+    background-color: bisque;
+    width: 100%;
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 0;
+    vertical-align: middle;
+    position: relative;
+    font-weight: bold;
+    font-size: large;
+    gap: 20px;
+    font-family: 'Encode Sans', sans-serif;
+    
+}
+
+.sekcejedna,
+.sekcedva,
+.sekcetri,
+.sekcectyri,
+.sekcepet {
+    
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    padding: 10px; 
+    
+}
+
+.sekcejedna
+{
+    background-color: antiquewhite;
+    border-radius: 0 10px 10px 10px;
+}
+
+.sekcedva {
+     background-color: pink;
+     border-radius: 10px 10px 10px 0;
+}
+
+.sekcetri {
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.sekcectyri {
+    background-color: paleturquoise;
+    padding: 5 50px 0 0 ;
+    border-radius: 10px 0 10px 10px;
+}
+
+.sekcepet {
+    background-color: blanchedalmond;
+    border-radius: 10px 10px 0 10px;
+}
 
 /* Okraje */
 /* První tabulka */
@@ -101,6 +187,7 @@ h1 {font-family: 'Lobster', cursive;
     height: 20px;
     border: 1px solid purple;
     color: transparent;
+    
 }
 
 
@@ -114,20 +201,15 @@ h1 {font-family: 'Lobster', cursive;
 }
 
 .prvnitab {  
-    position: relative; 
+  
     float: left;
     border-collapse: collapse;
 
 }
 
-.prostrednitab {  
-    position: relative; 
-    float: left;
-    border-collapse: collapse;
 
-}
 .druhatab {   
-    position: relative;
+   
     float: right;
     border-collapse: collapse;
 }
@@ -136,7 +218,7 @@ h1 {font-family: 'Lobster', cursive;
 
 /* Patička */
 .paticka {
-    background-color: rgb(62, 57, 57);
+    background-color: gray;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
